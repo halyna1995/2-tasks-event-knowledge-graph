@@ -1,0 +1,15 @@
+LOAD CSV WITH HEADERS FROM 'G:\Lysunochka\work and coaching from marielle obells\task 2\marielle correction resume+motivation letter\new\phd tue\Dirk tue\eventgraph_tutorial-main\eventgraph_tutorial-main\order_process/testProgram.csv' AS line
+CREATE (e:Event {
+  Log: line.Log,
+  EventID: line.EventID,
+  Activity: line.Activity,
+  timestamp: datetime(line.timestamp),
+  Actor: line.Actor,
+  Order: line.Order,
+  SupplierOrder: line.SupplierOrder,
+  Order_Details: line.Order_Details,
+  Item: line.Item,
+  Invoice: line.Invoice,
+  Payment: line.Payment,
+  Tray: line.Tray
+})
