@@ -1,0 +1,2 @@
+﻿e1,e2,delay
+"(:Event {Order: ""O1"",Order_Details: ""X,X,Y"",Actor: ""R1"",Activity: ""Create Order"",EventID: ""e1"",timestamp: ""2021-05-01T09:05:00.000+0100""})","(:Event {Order: ""O2"",Order_Details: ""X,Y"",Actor: ""R1"",Activity: ""Create Order"",EventID: ""e2"",timestamp: ""2021-05-01T09:30:00.000+0100""})",null
